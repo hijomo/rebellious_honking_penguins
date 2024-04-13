@@ -34,7 +34,13 @@
   },
   "name":"Rebellious Honking Penguins",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"obj_dirt_plot","path":"objects/obj_dirt_plot/obj_dirt_plot.yy",},},
+    {"id":{"name":"obj_farmer","path":"objects/obj_farmer/obj_farmer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"farmer","path":"sprites/farmer/farmer.yy",},},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
