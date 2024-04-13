@@ -18,6 +18,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_dirt_plot","order":1,"path":"objects/obj_dirt_plot/obj_dirt_plot.yy",},
-    {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"sp_plowed","order":2,"path":"sprites/sp_plowed/sp_plowed.yy",},
+    {"name":"sp_mud","order":1,"path":"sprites/sp_mud/sp_mud.yy",},
   ],
 }

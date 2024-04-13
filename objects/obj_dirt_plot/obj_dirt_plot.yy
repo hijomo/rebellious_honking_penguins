@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_dirt_plot",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_dirt_plot",
   "overriddenProperties":[],
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite2",
-    "path":"sprites/Sprite2/Sprite2.yy",
+    "name":"sp_mud",
+    "path":"sprites/sp_mud/sp_mud.yy",
   },
   "spriteMaskId":null,
   "visible":true,
