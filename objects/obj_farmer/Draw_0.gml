@@ -46,9 +46,9 @@ if((l5F0CF272_0))
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "-16"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "caption" ""Caption: \n""
-	/// @DnDArgument : "var" ""I am a value""
-	draw_text(x + 0, y + -16, string("Caption: \n") + string("I am a value"));
+	/// @DnDArgument : "caption" ""PLOW \n""
+	/// @DnDArgument : "var" ""PRESS: E""
+	draw_text(x + 0, y + -16, string("PLOW \n") + string("PRESS: E"));
 }
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
