@@ -18,7 +18,13 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_dirt_plot","order":1,"path":"objects/obj_dirt_plot/obj_dirt_plot.yy",},
-    {"name":"sp_plowed","order":2,"path":"sprites/sp_plowed/sp_plowed.yy",},
+    {"name":"obj_house","order":2,"path":"objects/obj_house/obj_house.yy",},
+    {"name":"sp_house","order":5,"path":"sprites/sp_house/sp_house.yy",},
     {"name":"sp_mud","order":1,"path":"sprites/sp_mud/sp_mud.yy",},
+    {"name":"sp_plowed","order":2,"path":"sprites/sp_plowed/sp_plowed.yy",},
+    {"name":"sp_seed_dry","order":3,"path":"sprites/sp_seed_dry/sp_seed_dry.yy",},
+    {"name":"sp_seed_wet","order":4,"path":"sprites/sp_seed_wet/sp_seed_wet.yy",},
+    {"name":"sp_sprout_dry","order":6,"path":"sprites/sp_sprout_dry/sp_sprout_dry.yy",},
+    {"name":"sp_sprout_wet","order":7,"path":"sprites/sp_sprout_wet/sp_sprout_wet.yy",},
   ],
 }

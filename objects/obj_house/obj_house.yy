@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dirt_plot",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_house",
+  "eventList":[],
   "managed":true,
-  "name":"obj_dirt_plot",
+  "name":"obj_house",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"sp_mud",
-    "path":"sprites/sp_mud/sp_mud.yy",
+    "name":"sp_house",
+    "path":"sprites/sp_house/sp_house.yy",
   },
   "spriteMaskId":null,
   "visible":true,
