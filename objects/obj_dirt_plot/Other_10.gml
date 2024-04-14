@@ -31,9 +31,9 @@ if(sprite_index == sp_sprout_wet)
 	/// @DnDVersion : 1
 	/// @DnDHash : 00C0C498
 	/// @DnDParent : 1C3C4CE0
-	/// @DnDArgument : "value" "sp_sprout_dry"
+	/// @DnDArgument : "value" "sp_red_plant"
 	/// @DnDArgument : "instvar" "10"
-	sprite_index = sp_sprout_dry;
+	sprite_index = sp_red_plant;
 
 	/// @DnDAction : YoYo Games.Common.Exit_Event
 	/// @DnDVersion : 1

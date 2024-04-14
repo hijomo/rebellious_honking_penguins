@@ -23,4 +23,19 @@ if((l51C9FB32_0))
 	with(obj_dirt_plot) {
 	event_user(0);
 	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2415E616
+	/// @DnDParent : 51C9FB32
+	/// @DnDArgument : "expr" "true"
+	/// @DnDArgument : "var" "sleeping"
+	sleeping = true;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 05D34B1B
+	/// @DnDParent : 51C9FB32
+	/// @DnDArgument : "steps" "60"
+	alarm_set(0, 60);
 }
