@@ -21,7 +21,9 @@
     {"name":"obj_house","order":2,"path":"objects/obj_house/obj_house.yy",},
     {"name":"obj_magic_circle","order":3,"path":"objects/obj_magic_circle/obj_magic_circle.yy",},
     {"name":"red_fruit","order":9,"path":"sprites/red_fruit/red_fruit.yy",},
+    {"name":"sp_background","order":11,"path":"sprites/sp_background/sp_background.yy",},
     {"name":"sp_house","order":5,"path":"sprites/sp_house/sp_house.yy",},
+    {"name":"sp_magic_circle","order":10,"path":"sprites/sp_magic_circle/sp_magic_circle.yy",},
     {"name":"sp_mud","order":1,"path":"sprites/sp_mud/sp_mud.yy",},
     {"name":"sp_plowed","order":2,"path":"sprites/sp_plowed/sp_plowed.yy",},
     {"name":"sp_red_plant","order":8,"path":"sprites/sp_red_plant/sp_red_plant.yy",},
@@ -29,6 +31,6 @@
     {"name":"sp_seed_wet","order":4,"path":"sprites/sp_seed_wet/sp_seed_wet.yy",},
     {"name":"sp_sprout_dry","order":6,"path":"sprites/sp_sprout_dry/sp_sprout_dry.yy",},
     {"name":"sp_sprout_wet","order":7,"path":"sprites/sp_sprout_wet/sp_sprout_wet.yy",},
-    {"name":"sp_magic_circle","order":10,"path":"sprites/sp_magic_circle/sp_magic_circle.yy",},
+    {"name":"sp_tutorial","order":12,"path":"sprites/sp_tutorial/sp_tutorial.yy",},
   ],
 }

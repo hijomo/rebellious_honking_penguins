@@ -23,6 +23,24 @@ draw_set_alpha(l1D748E80_0 / $ff);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 41DC5B7B
+/// @DnDArgument : "var" "tutorial"
+/// @DnDArgument : "value" "true"
+if(tutorial == true)
+{
+	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 6F3F316A
+	/// @DnDParent : 41DC5B7B
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "sprite" "sp_tutorial"
+	/// @DnDSaveInfo : "sprite" "sp_tutorial"
+	draw_sprite(sp_tutorial, 0, x + 0, y + 0);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 3E160090
 /// @DnDArgument : "var" "holding"
 /// @DnDArgument : "value" ""red fruit""
@@ -165,6 +183,72 @@ if((l5F0CF272_0))
 			/// @DnDArgument : "caption" ""HARVEST \n""
 			/// @DnDArgument : "var" ""PRESS: E""
 			draw_text(x + 0, y + -16, string("HARVEST \n") + string("PRESS: E"));
+		}
+	}
+}
+
+/// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
+/// @DnDVersion : 1.1
+/// @DnDHash : 5CF15E94
+/// @DnDArgument : "x1" "-14"
+/// @DnDArgument : "x1_relative" "1"
+/// @DnDArgument : "y1" "-14"
+/// @DnDArgument : "y1_relative" "1"
+/// @DnDArgument : "x2" "14"
+/// @DnDArgument : "x2_relative" "1"
+/// @DnDArgument : "y2" "14"
+/// @DnDArgument : "y2_relative" "1"
+/// @DnDArgument : "obj" "obj_magic_circle"
+/// @DnDArgument : "shape" "2"
+/// @DnDSaveInfo : "obj" "obj_magic_circle"
+var l5CF15E94_0 = collision_ellipse(x + -14, y + -14, x + 14, y + 14, obj_magic_circle, true, 1);
+if((l5CF15E94_0))
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7B690647
+	/// @DnDParent : 5CF15E94
+	/// @DnDArgument : "var" "holding"
+	/// @DnDArgument : "value" ""red fruit""
+	if(holding == "red fruit")
+	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value
+		/// @DnDVersion : 1
+		/// @DnDHash : 3FB2CDFC
+		/// @DnDParent : 7B690647
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y" "-16"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "caption" ""OFFER \n""
+		/// @DnDArgument : "var" ""PRESS: E""
+		draw_text(x + 0, y + -16, string("OFFER \n") + string("PRESS: E"));
+	}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 66D23E3A
+	/// @DnDParent : 5CF15E94
+	else
+	{
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 3DCFE72D
+		/// @DnDParent : 66D23E3A
+		/// @DnDArgument : "var" "obj_magic_circle.num_offering"
+		/// @DnDArgument : "op" "4"
+		/// @DnDArgument : "value" "3"
+		if(obj_magic_circle.num_offering >= 3)
+		{
+			/// @DnDAction : YoYo Games.Drawing.Draw_Value
+			/// @DnDVersion : 1
+			/// @DnDHash : 740E6C0A
+			/// @DnDParent : 3DCFE72D
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y" "-16"
+			/// @DnDArgument : "y_relative" "1"
+			/// @DnDArgument : "caption" ""SUMMON \n""
+			/// @DnDArgument : "var" ""PRESS: E""
+			draw_text(x + 0, y + -16, string("SUMMON \n") + string("PRESS: E"));
 		}
 	}
 }

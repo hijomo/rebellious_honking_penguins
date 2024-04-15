@@ -8,6 +8,7 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_farmer",
@@ -33,6 +34,8 @@
   "properties":[
     {"$GMObjectProperty":"","%Name":"holding","filters":[],"listItems":[],"multiselect":false,"name":"holding","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"\"","varType":2,},
     {"$GMObjectProperty":"","%Name":"sleeping","filters":[],"listItems":[],"multiselect":false,"name":"sleeping","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"","%Name":"tutorial","filters":[],"listItems":[],"multiselect":false,"name":"tutorial","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
+    {"$GMObjectProperty":"","%Name":"day","filters":[],"listItems":[],"multiselect":false,"name":"day","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

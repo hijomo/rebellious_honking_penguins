@@ -32,6 +32,15 @@ if((l51C9FB32_0))
 	/// @DnDArgument : "var" "sleeping"
 	sleeping = true;
 
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4407EFDA
+	/// @DnDParent : 51C9FB32
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "day"
+	day += 1;
+
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 05D34B1B
